@@ -1,0 +1,1001 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 1%;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+.container{
+    background-color: #ffffff;
+    width: 500px;
+    height: 390px;
+    margin: auto;
+    border-radius: 20px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+    background-color: #ffac06d7;
+    padding: 14px 30px;
+    text-align: center;
+    display: inline-block;
+    margin: auto 140px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+input{
+    width: 60%;
+    height: 15%;
+    margin: auto 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 2px;
+}
+.next{
+    width: 25%;
+    height: 15%;
+    margin: auto 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #00093c;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.re{
+    width: 25%;
+    height: 15%;
+    margin: auto 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #00093c;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+span{
+    font-size: 15px;
+    color:red;
+    padding:90px;
+    font-weight:bold;
+}
+
+@media only screen and (max-width: 768px) and (max-width: 800px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 10px;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 500px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 140px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 90px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 25%;
+        height: 15%;
+        margin: auto 170px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .re{
+        width: 25%;
+        height: 15%;
+        margin: auto 170px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 10px;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 500px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 140px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 90px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 25%;
+        height: 15%;
+        margin: auto 170px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .re{
+        width: 25%;
+        height: 15%;
+        margin: auto 170px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+}
+
+@media only screen and (max-width: 834px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 10px;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 500px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 140px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 90px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 25%;
+        height: 15%;
+        margin: auto 170px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .re{
+        width: 25%;
+        height: 15%;
+        margin: auto 170px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 15px;
+        color:rgb(255, 0, 0);
+        padding: 90px;
+        font-weight:bold;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 428px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 414px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 412px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 393px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 390px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 375px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 360px){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 1%;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 390px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+        background-color: #ffac06d7;
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+        margin: auto 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 70%;
+    }
+    input{
+        width: 60%;
+        height: 15%;
+        margin: auto 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .next{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .re{
+        width: 40%;
+        height: 15%;
+        margin: auto 92px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: #00093c;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .email span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .code span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+    .password span{
+        font-size: 12px;
+        color:rgb(255, 0, 0);
+        padding: 60px;
+        font-weight:bold;
+    }
+}
+
+

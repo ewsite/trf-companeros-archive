@@ -1,0 +1,55 @@
+#custom-navbar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+#custom-navbar-logo {
+    position: relative;
+    height: 100%;
+}
+
+#custom-navbar-nav {
+    display: flex;
+    align-items: center;
+}
+#custom-navbar-actions {
+    display: flex;
+    align-items:center;
+}
+
+#custom-navbar-actions > * {
+    margin: 0 0.5rem;
+}
+#custom-navbar-lists > *, #custom-dropdown-lists > *{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#custom-dropdown {
+    overflow: hidden;
+    height: 0px;
+}
+
+#custom-dropdown.active {
+    height: auto;
+}
+#custom-dropdown-container {
+    padding: 1rem 0;
+}
+#custom-dropdown-lists > * {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+
+}
+#custom-navbar-lists > *:not(:first-child) {
+    margin-left: 1rem;
+}
+#custom-navbar-logo > img {
+    height: 100%;
+    display: block;
+}
